@@ -1,0 +1,17 @@
+body {
+  background-image:url('https://i.redd.it/lhghki3r0vr01.png');
+  background-size:cover;
+}
+p {
+  color: white;
+}
+.t1 {
+  width: 40px;
+}
+.midden {
+text-align: center;
+}
+#txtHint {
+  padding-top: 20px;
+  color: white;
+}

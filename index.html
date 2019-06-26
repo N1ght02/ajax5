@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="author" content="Flint Naafs">
+    <meta charset="utf-8">
+    <title>ajax 5</title>
+  </head>
+  <body>
+    <div class="midden">
+          <p><img class="t1" src="https://steamuserimages-a.akamaihd.net/ugc/961964660028341890/CD158784229F4A0A71DC540CDC96DDCAE6F24039/" >Ajax 5 MD1B</p>
+    <input type="text" id="searchCountry" placeholder="Zoek een land">
+    <br>
+    <div id="txtHint">Hier komt de lijst</div>
+    <script>
+      searchCountry = document.getElementById('searchCountry');
+      searchCountry.addEventListener('keyup', function(){
+        showList(searchCountry.value,'list');
+      });
+    </script>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
